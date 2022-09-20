@@ -15,7 +15,11 @@
   "author": "Alexej Bronshtein",
   "license": "ISC",
   "scripts": {
-    "publish": "tsc && node ../postBuild.js"
+    "build": "tsc && cd ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wertyga/zoppa-utils/tree/master/functions"
   },
   "devDependencies": {
     "prettier": "^2.7.1",
