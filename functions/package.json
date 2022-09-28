@@ -1,6 +1,6 @@
 {
   "name": "@zoppa/functions",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "Helpful functions",
   "main": "public/index.ts",
   "keywords": [

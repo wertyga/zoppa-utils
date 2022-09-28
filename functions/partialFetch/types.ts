@@ -1,4 +1,4 @@
-export type HandlerType<EN = any, FR = any> = (entity: EN) => FR;
+export type HandlerType<EN = any, FR = any> = (entity: EN) => Promise<FR>;
 
 export type Error<EN = any> = { entity: EN; msg: string };
 
