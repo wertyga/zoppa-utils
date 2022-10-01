@@ -1,0 +1,27 @@
+{
+  "name": "@zoppa/node",
+  "version": "1.0.1",
+  "description": "Helpful functions for nodeJS",
+  "main": "public/index.ts",
+  "keywords": [
+    "usefull functions",
+    "handlers",
+    "functions",
+    "nodeJs",
+    "help"
+  ],
+  "scripts": {
+    "build": "rimraf public && tsc && npm run copy:publish:files",
+    "copy:publish:files": "copyfiles package.json public && copyfiles README.md public",
+    "go:publish": "cd ./public && npm publish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": "Alexej Bronshtein",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wertyga/zoppa-utils/tree/master/node"
+  }
+}

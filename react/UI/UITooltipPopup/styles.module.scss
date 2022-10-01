@@ -1,0 +1,10 @@
+.UITooltip {
+  position: relative;
+}
+
+.tooltipWrapper {
+  position: fixed;
+  transform: translate(0, -100%);
+  padding-bottom: 15px;
+  z-index: 20;
+}

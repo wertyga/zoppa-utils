@@ -1,4 +1,4 @@
-import { wait } from '../common';
+import wait from '../wait';
 import { Error, HandlerType, Options, Result } from './types';
 
 export const partialFetch = async <EN = any, FR = any>(
