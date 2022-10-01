@@ -1,6 +1,6 @@
 {
   "name": "@zoppa/node",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Helpful functions for nodeJS",
   "main": "public/index.ts",
   "keywords": [
