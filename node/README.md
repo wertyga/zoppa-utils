@@ -10,3 +10,15 @@ Files:
 <br/>
     - getNestedFilesFolders - get all files from target folder with need depth;
 <br/>
+<br/>
+    - getFileFromUrlToBuffer - get file from url and response it like a buffer;
+<br/>
+<br/>
+    - getFileFromUrlToBufferWithCompress - get file from url and response it like a buffer with compressed width and size;
+<br/>
+<br/>
+    - getFileFromUrlToDisk - get file from url and download it as file to disk;
+<br/>
+<br/>
+    - getFileFromUrlToDiskWithCompress - get file from url and download it as file to disk with compress;
+<br/>
