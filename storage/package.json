@@ -1,6 +1,6 @@
 {
   "name": "@zoppa/storage",
-  "version": "1.2.3",
+  "version": "1.3.0",
   "description": "Storage browser functions",
   "main": "public/index.ts",
   "keywords": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wertyga/zoppa-utils/tree/master/functions"
+    "url": "https://github.com/wertyga/zoppa-utils/tree/master/storage"
   },
   "devDependencies": {
     "prettier": "^2.7.1",

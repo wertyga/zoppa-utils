@@ -1,5 +1,6 @@
 class Cookie {
   state: Record<string, string>;
+  private subscribers = [];
 
   constructor(cookies: string) {
     this.state = this.parseCookies(cookies);
@@ -18,7 +19,7 @@ class Cookie {
     }, {});
   };
 
-  set(name, value, days?: number) {
+  set(name: string, value, days?: number) {
     let expires = '';
     if (days) {
       let date = new Date();
@@ -32,7 +33,7 @@ class Cookie {
     };
   }
 
-  get(name) {
+  get(name: string) {
     return this.state[name];
   }
 
@@ -40,9 +41,8 @@ class Cookie {
     return this.state;
   }
 
-  erase(name) {
-    document.cookie =
-      name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+  delete(name: string) {
+    document.cookie = name + '=; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
     delete this.state[name];
   }
 }
