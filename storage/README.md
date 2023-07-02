@@ -30,6 +30,6 @@ cookies.set(name: string, value: string, days?: number)
 // Get all cookies
 cookies.getAll()
 // Erase cookie
-cookies.erase(name: string) 
+cookies.delete(name: string) 
 ```
 
