@@ -22,3 +22,10 @@ Files:
 <br/>
     - getFileFromUrlToDiskWithCompress - get file from url and download it as file to disk with compress;
 <br/>
+<br/>
+    - ensurePath - check the path and if it does npt exist - create it
+<br/>
+<br/>
+    - renameFile - rename file
+    - renameFileBunch - rename bunch of files
+<br/>

@@ -1,10 +1,10 @@
-import fs from 'fs';
-import path from 'path';
+import * as fs from 'fs';
+import * as path from 'path';
 
 export default function getFilesFromFolder(
   folderPath: string,
   filter: string[] = []
-) {
+): { path: string; file: string }[] {
   const result = [];
   const entities = fs.readdirSync(folderPath);
   entities
@@ -22,5 +22,6 @@ export default function getFilesFromFolder(
         });
       }
     });
+
   return result;
 }

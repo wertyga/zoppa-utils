@@ -11,6 +11,7 @@
     "build:storage": "cd ./storage && npm run build && npm run go:publish"
   },
   "devDependencies": {
+    "@types/node": "^22.10.5",
     "prettier": "^2.7.1",
     "rimraf": "^3.0.2",
     "ts-babel-node": "^1.1.1",
