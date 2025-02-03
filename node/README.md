@@ -26,6 +26,6 @@ Files:
     - ensurePath - check the path and if it does npt exist - create it
 <br/>
 <br/>
-    - renameFile - rename file
+    - renameFile - rename file <br />
     - renameFileBunch - rename bunch of files
 <br/>
